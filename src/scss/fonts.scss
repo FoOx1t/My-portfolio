@@ -1,0 +1,19 @@
+$Roboto:("Light", 300), ("Regular", 400), ("Medium", 500), ("Bold", 700);
+
+@each $name, $weight in $Roboto{
+    @font-face {
+        font-family: "Roboto";
+        src: url("../fonts/Roboto-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
+
+$CourierPrime:("Light", 300), ("Regular", 400), ("Medium", 500), ("Bold", 700);
+
+@each $name, $weight in $CourierPrime{
+    @font-face {
+        font-family: "CourierPrime";
+        src: url("../fonts/CourierPrime-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
