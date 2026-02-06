@@ -1,0 +1,113 @@
+.profile {
+    margin-top: 50px;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__info_right {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        &_title {
+            font-weight: 700;
+            font-size: 29px;
+            color: #fff;
+        }
+
+        &_desc {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            &_name {
+                color: #70FF00;
+                max-width: 300px;
+                width: 100%;
+                font-weight: 700;
+                font-size: 50px;
+
+            }
+
+            &_p {
+                font-weight: 700;
+                font-size: 30px;
+                color: #fff;
+            }
+
+            &_exp {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+
+                &_time {
+                    max-width: 100px;
+                    color: #4F4F4F;
+                    font-weight: 500;
+                    font-size: 26px;
+
+                    &_span {
+                        color: #4F4F4F;
+                        font-weight: 700;
+                        font-size: 70px;
+
+                    }
+                }
+
+                &_project {
+                    max-width: 100px;
+                    color: #4F4F4F;
+                    font-weight: 500;
+                    font-size: 26px;
+
+                    &_span {
+                        color: #4F4F4F;
+                        font-weight: 700;
+                        font-size: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__info_left {
+        position: relative;
+
+        &_react {
+            bottom: 30px;
+            left: 30px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #3d3d3d;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+
+            img {
+              width: 85px;
+            height: 85px;   
+            }
+        }
+        &_img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #353535;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            
+            img {
+                border-radius: 50%;
+                width: 470px;
+                height: auto;
+            }
+        }
+    }
+}
